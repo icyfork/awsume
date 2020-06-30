@@ -55,10 +55,10 @@ The `--refresh` flag will tell awsume to ignore any cached credentials and get a
 
 ## Show Commands
 
-The `--show-commands` flag will display the exact commands required to export awsume's credentials to a different shell session, like this:
+The `--show-commands` (or `-s`) flag will display the exact commands required to export awsume's credentials to a different shell session, like this:
 
 ```
-$ awsume my-admin -s
+$ awsume --show-commands my-admin
 export AWS_ACCESS_KEY_ID=<SECRET>
 export AWS_SECRET_ACCESS_KEY=<SECRET
 export AWS_SESSION_TOKEN=<SECRET>
